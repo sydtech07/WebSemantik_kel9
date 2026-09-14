@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Karakter Mobile Legends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>Data Karakter Mobile Legends</h1>
+    <p>Ditampilkan dari file <code>karakter.xml</code> menggunakan JavaScript</p>
+  </header>
+
+  <main class="container">
+    <div class="table-wrapper">
+      <table id="karakter-table">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Role</th>
+            <th>Tipe Serangan</th>
+            <th>Lane</th>
+            <th>Tingkat Kesulitan</th>
+            <th>Skill</th>
+            <th>Profil</th>
+          </tr>
+        </thead>
+        <!-- tbody ini sengaja dikosongkan, nanti diisi otomatis oleh script.js (bagian Andika) -->
+        <tbody id="table-body">
+          <tr id="loading-row">
+            <td colspan="8">Memuat data...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <p>Tugas Kelompok 9 — Web Semantik</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

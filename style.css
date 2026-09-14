@@ -1,0 +1,140 @@
+:root {
+  --bg-deep: #0a1628;
+  --bg-panel: #12213a;
+  --bg-panel-alt: #1a2c4a;
+  --border-glow: #2f5d8a;
+  --accent-cyan: #3fc8f5;
+  --accent-cyan-dark: #0a7ea8;
+  --accent-gold: #e8b84c;
+  --text-main: #f1f5f9;
+  --text-muted: #8fa6c2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #16233b 0%, var(--bg-deep) 65%);
+  color: var(--text-main);
+  padding: 32px 20px;
+  min-height: 100vh;
+}
+
+/* ---------- Header ala panel "HEROES" ---------- */
+.page-header {
+  text-align: center;
+  margin-bottom: 28px;
+  padding: 18px 24px;
+  background: linear-gradient(90deg, var(--bg-panel) 0%, var(--bg-panel-alt) 100%);
+  border: 1px solid var(--border-glow);
+  clip-path: polygon(0 0, 96% 0, 100% 30%, 100% 100%, 4% 100%, 0 70%);
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 24px rgba(63, 200, 245, 0.15);
+}
+
+.page-header h1 {
+  font-size: 1.9rem;
+  letter-spacing: 0.04em;
+  color: var(--text-main);
+  text-shadow: 0 0 14px rgba(63, 200, 245, 0.5);
+}
+
+.page-header p {
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.page-header code {
+  background: rgba(63, 200, 245, 0.12);
+  color: var(--accent-cyan);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 24px auto 0;
+}
+
+/* ---------- Table ---------- */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border-glow);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(63, 200, 245, 0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--bg-panel);
+  min-width: 900px;
+}
+
+thead th {
+  background: linear-gradient(90deg, var(--accent-cyan-dark), var(--bg-panel-alt));
+  color: var(--text-main);
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--accent-cyan);
+}
+
+tbody td {
+  padding: 13px 16px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(63, 93, 138, 0.4);
+  vertical-align: top;
+  color: var(--text-main);
+}
+
+tbody tr {
+  transition: background 0.2s ease;
+}
+
+tbody tr:hover {
+  background-color: var(--bg-panel-alt);
+  box-shadow: inset 3px 0 0 var(--accent-cyan);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+#loading-row td {
+  text-align: center;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ---------- Badge tingkat kesulitan (dipasang lewat class dari JS) ---------- */
+.badge {
+  display: inline-block;
+  padding: 3px 12px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
+}
+.badge-mudah       { background: #1f7a4d; color: #d7fce6; }
+.badge-sedang      { background: var(--accent-gold); color: #2a1c02; }
+.badge-sulit       { background: #b0552b; color: #ffe9d6; }
+.badge-sangatsulit { background: #a12e2e; color: #ffe1e1; }
+
+/* ---------- Footer ---------- */
+.page-footer {
+  text-align: center;
+  margin-top: 28px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}

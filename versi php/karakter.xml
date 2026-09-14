@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<karakterMobileLegends>
+    <karakter>
+        <nama>Miya</nama>
+        <role>Marksman</role>
+        <skill>Moon Arrow, Arrow of Eclipse, Hidden Moonlight</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Gold Lane</lane>
+        <profil>Marksman yang mengandalkan attack speed dan serangan jarak jauh.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Layla</nama>
+        <role>Marksman</role>
+        <skill>Malefic Bomb, Void Projectile, Destruction Rush</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Gold Lane</lane>
+        <profil>Marksman dengan jangkauan serangan yang sangat jauh pada level tinggi.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Bruno</nama>
+        <role>Marksman</role>
+        <skill>Volley Shot, Flying Tackle, Wave of the World</skill>
+        <tingkat_kesulitan>Sedang</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Gold Lane</lane>
+        <profil>Marksman yang memanfaatkan serangan kritikal dan mobilitas untuk memberikan damage.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Alucard</nama>
+        <role>Fighter</role>
+        <skill>Groundsplitter, Whirling Smash, Fission Waves</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Jungle</lane>
+        <profil>Fighter dengan mobilitas tinggi dan kemampuan sustain melalui lifesteal.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Balmond</nama>
+        <role>Fighter</role>
+        <skill>Soul Lock, Cyclone Sweep, Lethal Counter</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Jungle</lane>
+        <profil>Fighter yang memiliki ketahanan tinggi dan kemampuan memberikan damage area.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Freya</nama>
+        <role>Fighter</role>
+        <skill>Leap of Faith, Spirit Ward, Valkyrie Descent</skill>
+        <tingkat_kesulitan>Sedang</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>EXP Lane</lane>
+        <profil>Fighter dengan kemampuan duel jarak dekat dan peningkatan kekuatan saat bertarung.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Tigreal</nama>
+        <role>Tank</role>
+        <skill>Attack Wave, Sacred Hammer, Implosion</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Roam</lane>
+        <profil>Tank dengan kemampuan crowd control kuat untuk membuka pertarungan tim.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Franco</nama>
+        <role>Tank</role>
+        <skill>Iron Hook, Fury Shock, Bloody Hunt</skill>
+        <tingkat_kesulitan>Sedang</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Roam</lane>
+        <profil>Tank yang terkenal dengan kemampuan menarik lawan menggunakan hook.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Gatotkaca</nama>
+        <role>Tank/Fighter</role>
+        <skill>Blast Iron Fist, Unbreakable, Avatar of the Guardian</skill>
+        <tingkat_kesulitan>Sedang</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Roam</lane>
+        <profil>Tank yang memiliki daya tahan tinggi dan kemampuan crowd control area.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Eudora</nama>
+        <role>Mage</role>
+        <skill>Forked Lightning, Ball Lightning, Thunder's Wrath</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Mid Lane</lane>
+        <profil>Mage dengan burst damage tinggi yang efektif untuk mengeliminasi lawan dengan cepat.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Nana</nama>
+        <role>Mage</role>
+        <skill>Magic Boomerang, Molina Smooch, Molina Blitz</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Mid Lane</lane>
+        <profil>Mage dengan kemampuan crowd control dan burst damage yang mudah digunakan.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Aurora</nama>
+        <role>Mage</role>
+        <skill>Hailstone Blast, Frosty Breeze, Frigid Glacier</skill>
+        <tingkat_kesulitan>Sedang</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Mid Lane</lane>
+        <profil>Mage yang mengandalkan efek pembekuan dan burst damage untuk mengendalikan pertarungan.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Saber</nama>
+        <role>Assassin</role>
+        <skill>Orbiting Swords, Charge, Triple Sweep</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Jungle</lane>
+        <profil>Assassin dengan burst damage tinggi yang efektif mengincar hero lawan dengan pertahanan rendah.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Hayabusa</nama>
+        <role>Assassin</role>
+        <skill>Phantom Shuriken, Quad Shadow, Ougi: Shadow Kill</skill>
+        <tingkat_kesulitan>Sulit</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Jungle</lane>
+        <profil>Assassin dengan mobilitas tinggi yang dapat berpindah posisi menggunakan bayangan.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Fanny</nama>
+        <role>Assassin</role>
+        <skill>Tornado Strike, Steel Cable, Cut Throat</skill>
+        <tingkat_kesulitan>Sangat Sulit</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Jungle</lane>
+        <profil>Assassin dengan mobilitas ekstrem yang membutuhkan penguasaan mekanik tinggi.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Rafaela</nama>
+        <role>Support</role>
+        <skill>Light of Retribution, Holy Healing, Holy Baptism</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Roam</lane>
+        <profil>Support yang membantu tim melalui penyembuhan dan peningkatan mobilitas.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Estes</nama>
+        <role>Support</role>
+        <skill>Moonlight Immersion, Domain of Moon Goddess, Blessing of Moon Goddess</skill>
+        <tingkat_kesulitan>Mudah</tingkat_kesulitan>
+        <tipe_serangan>Ranged</tipe_serangan>
+        <lane>Roam</lane>
+        <profil>Support yang berfokus pada pemulihan HP dan menjaga rekan satu tim tetap bertahan.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Ruby</nama>
+        <role>Fighter</role>
+        <skill>Be Good, Don't Run Wolf King, I'm Offended</skill>
+        <tingkat_kesulitan>Sedang</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>EXP Lane</lane>
+        <profil>Fighter dengan kemampuan crowd control dan sustain yang kuat dalam pertarungan.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Chou</nama>
+        <role>Fighter</role>
+        <skill>Jeet Kune Do, Shunpo, The Way of Dragon</skill>
+        <tingkat_kesulitan>Sulit</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>EXP Lane</lane>
+        <profil>Fighter dengan mobilitas dan crowd control tinggi yang membutuhkan kemampuan mekanik baik.</profil>
+    </karakter>
+
+    <karakter>
+        <nama>Gusion</nama>
+        <role>Assassin</role>
+        <skill>Sword Spike, Shadowblade Slaughter, Incandescence</skill>
+        <tingkat_kesulitan>Sulit</tingkat_kesulitan>
+        <tipe_serangan>Melee</tipe_serangan>
+        <lane>Jungle</lane>
+        <profil>Assassin dengan kombinasi skill cepat dan burst damage tinggi.</profil>
+    </karakter>
+</karakterMobileLegends>
